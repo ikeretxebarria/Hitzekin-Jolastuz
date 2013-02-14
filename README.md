@@ -8,15 +8,15 @@ Requiere la creación del diccionario de palabras en el fichero diccio.js
 
 function populateDB(tx) {
 
-+tx.executeSql('insert into hitzak values ("abar");');
+ tx.executeSql('insert into hitzak values ("abar");');
 
-+tx.executeSql('insert into hitzak values ("abantailos");');
+ tx.executeSql('insert into hitzak values ("abantailos");');
 
-+// Horrela hiztegiak dituen hitz guztiak sar itzazu
-+
-+//Gero sar itzazu 10 letratako hitzak
-+   tx.executeSql('insert into hitzak10 values("zuztrapilo");');
-+   
+ // Horrela hiztegiak dituen hitz guztiak sar itzazu
+ 
+ //Gero sar itzazu 10 letratako hitzak
+    tx.executeSql('insert into hitzak10 values("zuztrapilo");');
+ ...   
 
 Tests
 
